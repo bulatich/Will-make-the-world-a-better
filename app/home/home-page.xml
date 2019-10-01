@@ -1,0 +1,32 @@
+<Page loaded="pageLoaded" class="page">
+
+	<ActionBar class="action-bar">
+		<Label text="Выберите категории" class="actionBarLabel" />
+	</ActionBar>
+
+	<GridLayout rows="*" xmlns:lv="nativescript-ui-listview" xmlns:img="nativescript-image" height="100%">
+		<!-- <lv:RadListView id="list-view" row="0" items="{{ locations }}" marginRight="-2">
+			<lv:RadListView.listViewLayout>
+				<lv:ListViewGridLayout scrollDirection="Vertical" itemHeight="200" spanCount="1" />
+			</lv:RadListView.listViewLayout>
+			<lv:RadListView.itemTemplate>
+				<GridLayout rows="*" backgroundColor="White">
+					<GridLayout rows="*" columns="*" margin="0">
+						<ios>
+							<Image src="{{ imageSrc }}" stretch="aspectFill" />
+						</ios>
+						<android>
+							<img:Img horizontalAlignment="stretch" height="180" src="{{ imageSrc }}" />
+						</android>
+						<GridLayout verticalAlignment="bottom">
+							<StackLayout paddingTop="8" paddingBottom="8" paddingLeft="16" paddingRight="16">
+
+							</StackLayout>
+						</GridLayout>
+					</GridLayout>
+				</GridLayout>
+			</lv:RadListView.itemTemplate>
+		</lv:RadListView> -->
+	</GridLayout>
+
+</Page>

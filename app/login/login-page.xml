@@ -1,0 +1,14 @@
+<Page class="page" navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <FlexboxLayout class="page page-login" backgroundImage="~/assets/mesh.png">
+        <StackLayout class="flexbox-item company-name-container">
+            <Label class="t-30 company-name" text="Adventure time"></Label>
+        </StackLayout>
+        <Image src="~/assets/company_logo.png" stretch="aspectFit" class="company-logo"></Image>
+        <StackLayout class="flexbox-item">
+            <Label class="t-18 login-text" text="Search you"></Label>
+            <Button class="btn btn-login btn-rounded-sm font-weight-bold t-18"
+                tap="{{ login }}" text="Log in"></Button>
+        </StackLayout>
+    </FlexboxLayout>
+</Page>
